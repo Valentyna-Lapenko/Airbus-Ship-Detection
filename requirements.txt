@@ -1,0 +1,34 @@
+The list of the required modules:
+
+1. TensorFlow and Keras:
+
+	tensorflow: TensorFlow is the core library for building deep learning models.
+	keras: Keras is a high-level neural networks API that runs on top of TensorFlow.
+
+2. NumPy:
+
+	numpy: NumPy is used for numerical operations and array manipulation.
+
+3. Data Visualization:
+
+	matplotlib: Matplotlib is a plotting library for creating visualizations.
+
+
+4. PIL or Pillow: The Python Imaging Library (PIL) or its fork Pillow is used for image processing.
+
+
+5. opencv-python: OpenCV is often used for image preprocessing and augmentation.
+
+6. Additional Utilities:
+
+	scikit-learn: Scikit-learn provides utilities for data preprocessing and evaluation.
+
+7. jupyter: If you prefer using Jupyter Notebooks for interactive development.
+
+Optional: GPU Support (If available):
+
+tensorflow-gpu: If you have a compatible GPU and want to accelerate training.
+
+Optional: tqdm (for progress bars during training):
+
+tqdm: Provides a fast, extensible progress bar for loops and pipelines.
