@@ -8,7 +8,12 @@ For this metric, object segments cannot overlap. There were a small percentage o
 
 The train_ship_segmentations.csv file provides the ground truth (in run-length encoding format) for the training images. The sample_submission files contains the images in the test images.
 
-Evaluation metric : Dice score
+## Model
+The architecture used is U-Net, which is very common for image segmentation problems.
+Evaluation metric : Dice score is Dice Sore.
+Training of the model was done using Adam optimizer with learning rate 1.e-4.
+The model is trained for 3 (3500 steps on each) epochs.
+After 3 epochs we get Dice Score - 0.602.
 
 ### Links
 https://www.kaggle.com/competitions/airbus-ship-detection/data
