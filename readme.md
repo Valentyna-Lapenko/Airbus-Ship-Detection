@@ -1,6 +1,6 @@
 # Semantic segmentation model
 ## Files
-
+-Airbus Ship Detection EDA.ipynb - Jupyter notebook with exploratory data analysis
 ## Description of the Dataset
 Many images do not contain ships, and those that do may contain multiple ships. Ships within and across images may differ in size (sometimes significantly) and be located in open sea, at docks, marinas, etc.
 
