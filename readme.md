@@ -16,7 +16,7 @@ For this metric, object segments cannot overlap. There were a small percentage o
 
 The train_ship_segmentations.csv file provides the ground truth (in run-length encoding format) for the training images.
 
-The sample_submission files contains the images in the test images.
+The sample_submission files contain the images in the test images.
 
 ## Model
 The architecture used is U-Net, which is very common for image segmentation problems.
