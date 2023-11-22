@@ -1,6 +1,14 @@
 # Semantic segmentation model
 ## Files
--Airbus Ship Detection EDA.ipynb - Jupyter notebook with exploratory data analysis
+Airbus Ship Detection EDA.ipynb - Jupyter notebook with exploratory data analysis
+
+requirements.txt - txt file with the list of required python modules.
+
+Unet.py - code for building the Unet architecture.
+
+model_training.py - source code for model training.
+
+model_testing.py - source code for model testing.
 ## Description of the Dataset
 Many images do not contain ships, and those that do may contain multiple ships. Ships within and across images may differ in size (sometimes significantly) and be located in open sea, at docks, marinas, etc.
 
@@ -13,13 +21,11 @@ The sample_submission files contains the images in the test images.
 ## Model
 The architecture used is U-Net, which is very common for image segmentation problems.
 
-Evaluation metric : Dice score is Dice Sore.
+Evaluation metric is Dice Sore.
 
-Training of the model was done using Adam optimizer with learning rate 1.e-4.
+Training of the model was done using Adam optimizer with learning rate 1.e-3.
 
-The model is trained for 3 (3500 steps on each) epochs.
-
-After 3 epochs we get Dice Score - 0.602.
+The model is trained for 3 epochs.
 
 ### Links
 https://www.kaggle.com/competitions/airbus-ship-detection/data
